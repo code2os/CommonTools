@@ -1,0 +1,51 @@
+//
+//  hong.pch
+//  JQHelp
+//
+//  Created by pp on 15/7/31.
+//  Copyright (c) 2015年 Joe. All rights reserved.
+//
+
+#ifndef JQHelp_hong_pch
+#define JQHelp_hong_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
+#define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
+#pragma mark — 设备及系统判断
+#define isPad  ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+#define isiPhone5 ([[UIScreen mainScreen]bounds].size.height == 568)
+#define osVersionStr   [[UIDevice currentDevice] systemVersion]
+#define osVersionDouble   [osVersionStr doubleValue]
+//ios版本
+#define isOS5AndLater osVersionDouble >= 5
+#define isOS6AndLater osVersionDouble >= 6
+#define isOS7AndLater osVersionDouble>=7
+#define isOS8AndLater osVersionDouble >= 8
+
+//清除背景色
+#define CLEARCOLOR [UIColor clearColor]
+
+#pragma mark - color functions
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+// 默认背景色
+#define DefaultBackgroundColor [UtilityHelper stringTOColor:@"#efeff4"]
+// 默认NavigationBar字体颜色
+#define DefaultNavBarColor [UtilityHelper stringTOColor:@"#E29600"]
+
+//状态栏高度
+#define STATUS_BAR_HEIGHT 20
+//NavBar高度
+#define NAVIGATION_BAR_HEIGHT 44
+//Tabbar高度
+#define TAB_BAR_HEIGHT 49
+//状态栏 ＋ 导航栏 高度
+#define STATUS_AND_NAVIGATION_HEIGHT ((STATUS_BAR_HEIGHT)+(NAVIGATION_BAR_HEIGHT))
+
+// SQLite数据库名
+#define DatabaseName @"inotedb.sqlite"

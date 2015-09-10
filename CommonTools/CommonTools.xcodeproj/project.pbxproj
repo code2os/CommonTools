@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D8AC4F581BA1C87800FF0134 /* readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = readme.rtf; sourceTree = "<group>"; };
+		D8AC4F591BA1C88100FF0134 /* UtilityHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UtilityHelper.h; path = CommonTools/UtilityHelper.h; sourceTree = "<group>"; };
+		D8AC4F5A1BA1C88100FF0134 /* UtilityHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UtilityHelper.m; path = CommonTools/UtilityHelper.m; sourceTree = "<group>"; };
+		D8AC4F5B1BA1C88100FF0134 /* Macro.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macro.pch; path = CommonTools/Macro.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D8AC4F511BA1C82900FF0134 = {
+			isa = PBXGroup;
+			children = (
+				D8AC4F591BA1C88100FF0134 /* UtilityHelper.h */,
+				D8AC4F5A1BA1C88100FF0134 /* UtilityHelper.m */,
+				D8AC4F5B1BA1C88100FF0134 /* Macro.pch */,
+				D8AC4F581BA1C87800FF0134 /* readme.rtf */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		D8AC4F521BA1C82900FF0134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = D8AC4F551BA1C82900FF0134 /* Build configuration list for PBXProject "CommonTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8AC4F511BA1C82900FF0134;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D8AC4F561BA1C82900FF0134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D8AC4F571BA1C82900FF0134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8AC4F551BA1C82900FF0134 /* Build configuration list for PBXProject "CommonTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8AC4F561BA1C82900FF0134 /* Debug */,
+				D8AC4F571BA1C82900FF0134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8AC4F521BA1C82900FF0134 /* Project object */;
+}
